@@ -1,0 +1,9 @@
+.container-joinus{
+    margin-top: 20rem;
+    background-color: #EBEBEB;
+    /* padding: 3rem; */
+}
+
+.container-joinus  .left-right-container .right img{
+    margin-top: 2rem;
+}

@@ -1,0 +1,61 @@
+.minCard{
+    position: relative;
+    min-width: 350px;
+}
+
+.minCard img{
+    width: 350px;
+}
+.minCard span{
+    position: absolute;
+    bottom: 20px;
+    left: -15px;
+    width: 250px;
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    transform-origin:left ;
+    transform: scaleX(1);
+    transition: transform 1s ease-in-out;
+    transition-delay: 0.6s;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.minCard span *{
+    margin-top: 3%;
+    font-size: 2rem;
+    padding: auto;
+    margin-left:5rem;
+}
+
+
+.minCard span::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    top: 40px;
+    height: 30px;
+    background-color: #c35c1c;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transform: scaleX(1);
+    transform-origin:right ;
+    transition: transform .3s ease-in-out;
+    z-index: 2;
+}
+
+.minCard span::after{
+    content:"";
+    position: absolute;
+    top: 50px;
+    width: 15px;
+    height: 15px;
+    background: var(--main-color);
+    transform-origin:top ;
+    transform: scaleY(0);
+    transition: transform .3s ease-in-out;
+    transition-delay: .3s;
+    z-index: 1;
+}

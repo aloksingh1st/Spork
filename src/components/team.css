@@ -1,0 +1,14 @@
+.cf{
+    display: flex;
+}
+
+
+@media screen and (max-width: 556px) {
+    .cf{
+        display: block;
+    }
+    .cf *{
+        margin: auto;
+
+    }
+}

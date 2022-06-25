@@ -1,0 +1,43 @@
+.left-right-container{
+    display: flex;
+    margin-bottom: 15rem;
+}
+
+.left-right-container .right{
+    margin: 4rem;
+}
+
+.left-right-container .right img{
+    width: 50rem;
+    margin-top: -8rem;
+}
+
+
+.left-right-container .left{
+    margin: 8rem;
+}
+
+.left-right-container .left h1{
+    font-size: 4rem;
+}
+
+.left-right-container .left p{
+    font-size: 2.5rem;
+}
+
+.left-right-container .left a{
+    text-decoration: none;
+    color: white;
+    background-color: var(--main-color);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.4rem;
+    margin-right: 8rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    float: right;
+    box-shadow: rgba(9, 9, 226, 0.25) 0px 50px 30px -10px,
+    rgba(0, 0, 0, 0.3) 0px 30px 16px -10px;
+}
+
+
